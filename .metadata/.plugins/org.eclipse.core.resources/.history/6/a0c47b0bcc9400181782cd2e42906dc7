@@ -1,0 +1,10 @@
+package springboot.topic;
+
+public class Topic {
+	
+	private String id;
+	private String Name;
+	private String Description;
+	
+
+}
