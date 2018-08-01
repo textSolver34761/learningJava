@@ -32,7 +32,7 @@ public class TopicController {
 	}
 	
 	@RequestMapping(method=RequestMethod.POST, value="/topics/{id}")
-	public void update(@RequestBody Topic topic, @PathVariable String id) {
+	public void update(@RequestBody Topic topic ) {
 		topicserives.add(topic);
 	}
 
