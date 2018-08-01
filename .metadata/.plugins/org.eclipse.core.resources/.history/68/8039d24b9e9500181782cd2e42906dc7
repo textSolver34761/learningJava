@@ -21,6 +21,6 @@ public class TopicSerices {
 	}
 	
 	public Topic get(String id) {
-		return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
+		topics.stream().filter(t -> t.getId().equals(id));
 	}
 }

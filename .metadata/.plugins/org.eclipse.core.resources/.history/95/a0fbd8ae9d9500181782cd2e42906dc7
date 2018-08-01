@@ -19,8 +19,4 @@ public class TopicSerices {
 	public List <Topic> getAll(){
 		return topics;
 	}
-	
-	public Topic get(String id) {
-		return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
-	}
 }
