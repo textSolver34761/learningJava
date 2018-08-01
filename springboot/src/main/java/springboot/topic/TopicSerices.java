@@ -1,0 +1,22 @@
+package springboot.topic;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TopicSerices {
+	
+	private List <Topic> topics = Arrays.asList(
+			new Topic("Spring","Spring Framework","Randdom description"),
+			new Topic("Java","Java 8.1","Java description"),
+			new Topic("PHP","PHP7","PHP description"),
+			new Topic("Laravel","Laravel Framework","Laravel description"),
+			new Topic("Python","Python","Python description")
+			);
+	
+	public List <Topic> getAll(){
+		return topics;
+	}
+}

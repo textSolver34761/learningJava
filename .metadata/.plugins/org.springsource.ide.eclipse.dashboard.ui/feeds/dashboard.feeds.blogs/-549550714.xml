@@ -5,7 +5,29 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-07-31T13:20:32Z</updated>
+  <updated>2018-08-01T10:40:17Z</updated>
+  <entry>
+    <title>Spring Vault 2.1 M1 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/08/01/spring-vault-2-1-m1-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Paluch</name>
+    </author>
+    <id>tag:spring.io,2018-08-01:3353</id>
+    <updated>2018-08-01T10:40:17Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the community, I&amp;rsquo;m pleased to announce the availability of the first Spring Vault 2.1 milestone. This release ships with 47 tickets fixed and the highlights of this first milestone include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support for Google Cloud Compute and Google Cloud IAM authentication mechanism support.&lt;/li&gt;
+  &lt;li&gt;Integration of Vault&amp;rsquo;s versioned Key-Value backend through &lt;code&gt;VaultKeyValueOperations&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Template API for Vault&amp;rsquo;s wrapping endpoints.&lt;/li&gt;
+  &lt;li&gt;Support of full pull mode in reactive AppRole authentication. The limitation of previous versions has been lifted now.&lt;/li&gt;
+  &lt;li&gt;Improved Exception hierarchy for Vault login failures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This release is compatible with Vault versions from &lt;code&gt;0.5.2&lt;/code&gt; up to &lt;code&gt;0.10.3&lt;/code&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#next-steps" class="anchor" name="next-steps"&gt;&lt;/a&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Spring Vault 2.1 M1 will be picked up by the next Spring Cloud Vault 2.1 milestone. Our backlog contains a few more tickets that we want to ship with the upcoming release candidate of Spring Vault 2.1. It&amp;rsquo;s scheduled for early September. Expect a GA release for early October.&lt;/p&gt;
+&lt;p&gt;For a complete list of changes see the &lt;a href="http://docs.spring.io/spring-vault/docs/2.1.0.M1/changelog.txt"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/2.1.0.M1/reference/html/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/mp911de/spring-cloud-vault-config-samples/"&gt;Examples&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring IO Platform Cairo SR3</title>
     <link rel="alternate" href="https://spring.io/blog/2018/07/31/spring-io-platform-cairo-sr3" />
@@ -872,17 +894,5 @@ The &lt;code&gt;HttpSessionRequestCache&lt;/code&gt; has been updated to no long
     <content type="html">&lt;p&gt;It&amp;rsquo;s my pleasure to announce that &lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;Spring REST Docs&lt;/a&gt; 1.2.5.RELEASE is available from Maven Central, JCenter, and our &lt;a href="https://repo.spring.io/release"&gt;release repository&lt;/a&gt;. My thanks to everyone who contributed to this release by reporting bugs and opening pull requests.&lt;/p&gt;
 &lt;p&gt;This maintenance release includes a &lt;a href="https://github.com/spring-projects/spring-restdocs/issues?q=milestone%3A1.2.5.RELEASE"&gt;handful of bug fixes and documentation improvements&lt;/a&gt;. It is a recommend upgrade for all Spring REST Docs 1.x users. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-restdocs/docs/1.2.5.RELEASE"&gt;Documentation&lt;/a&gt; | &lt;a href="https://twitter.com/springrestdocs"&gt;Twitter&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-restdocs"&gt;Gitter&lt;/a&gt; | &lt;a href="https://stackoverflow.com/tags/spring-restdocs"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Dependency Management Plugin 1.0.6.RELEASE</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/07/18/dependency-management-plugin-1-0-6-release" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2018-07-18:3332</id>
-    <updated>2018-07-18T13:02:00Z</updated>
-    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://github.com/spring-gradle-plugins/dependency-management-plugin"&gt;Gradle dependency management plugin&lt;/a&gt; 1.0.6.RELEASE is now available from Maven Central, Bintray, and the &lt;a href="https://plugins.gradle.org/plugin/io.spring.dependency-management"&gt;Gradle Plugin Portal&lt;/a&gt;. This maintenance release fixes &lt;a href="https://github.com/spring-gradle-plugins/dependency-management-plugin/milestone/26?closed=1"&gt;four issues&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For Spring Boot users, the new version will be included in the Spring Boot 1.5.15 and 2.0.4 releases. For all other users of the plugin, 1.0.6 is a recommended manual upgrade.&lt;/p&gt;</content>
   </entry>
 </feed>
