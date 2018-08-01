@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class TopicSerices {
 	
-	private List <Topic> topics = new ArrayList <> (Arrays.asList(
+	private List <Topic> topics = Arrays.asList(
 			new Topic("Spring","Spring Framework","Randdom description"),
 			new Topic("Java","Java 8.1","Java description"),
 			new Topic("PHP","PHP7","PHP description"),
 			new Topic("Laravel","Laravel Framework","Laravel description"),
 			new Topic("Python","Python","Python description")
-			));
+			);
 	
 	public List <Topic> getAll(){
 		return topics;
@@ -22,10 +22,5 @@ public class TopicSerices {
 	
 	public Topic get(String id) {
 		return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
-	}
-
-	public void add(Topic topic) {
-		topics.add(topic);
-		
 	}
 }

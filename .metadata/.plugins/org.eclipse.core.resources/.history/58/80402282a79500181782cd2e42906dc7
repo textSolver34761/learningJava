@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TopicSerices {
 	
-	private List <Topic> topics = new ArrayList <> (Arrays.asList(
+	private List <Topic> topics = new ArraysList <> (Arrays.asList(
 			new Topic("Spring","Spring Framework","Randdom description"),
 			new Topic("Java","Java 8.1","Java description"),
 			new Topic("PHP","PHP7","PHP description"),
