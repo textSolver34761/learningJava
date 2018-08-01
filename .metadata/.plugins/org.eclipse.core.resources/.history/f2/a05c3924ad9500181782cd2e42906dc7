@@ -42,6 +42,6 @@ public class TopicSerices {
 	}
 
 	public void delete(String id) {
-		topics.removeIf(t -> t.getId().equals(id));
+		topics.removeIf(t -> getId().equals(id));
 	}
 }
